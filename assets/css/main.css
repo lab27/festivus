@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-gold: #FBAF1D;
+  --c-red: #F35336;
+  --c-brown: #4F3A2E;
+  --c-beige: #FEEFD2;
+  --c-back: #140C08;
+}
+
+body {
+  background: linear-gradient(var(--c-gold), var(--c-gold), white, white);
+  background-size: 400% 400%;
+  background-position: 0% 100%;
+  transition: background 1s;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.moving-title-wrapper {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-content: center;
+  z-index: -1;
+}
+
+.moving-title {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  transform: translateX(0);
+  transform-origin: top right;
+}
+
+
+
+.moving-title .g {
+  position: relative;
+} 
+.moving-title .ff {
+  position: relative;
+  transform-origin: 100% 100%;
+} 
+
+.page-home {
+  /* background-color: var(--c-gold); */
+  background-position: 0% 0%;
+}
+
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.page-wrapper {
+  @apply columns-1 lg:columns-12;
+  padding: 0 10% 0 10%;
+  margin: 0 auto;
+  border-left: 1px solid salmon;
+  height: 100%;
+  position: relative;
+}
+
+header nav {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+}

@@ -1,0 +1,21 @@
+<template lang="pug">
+  nav
+    ul
+      li
+        nuxt-link(to="/") [Logo]
+      li
+        nuxt-link(to="/films") Films
+      li
+        nuxt-link(to="/talks") Talks
+      li
+        nuxt-link(to="/schedule") Schedule
+      li
+        nuxt-link(to="/venues") Venues
+      li
+        nuxt-link(to="/sponsors") Sponsors
+      li
+        nuxt-link(to="/about") About
+      li
+        a(href="https://ticketmaster.com" target="_blank").external_link Tickets
+
+</template>
