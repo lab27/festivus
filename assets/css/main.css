@@ -1,6 +1,8 @@
+@import url("https://use.typekit.net/ijl5pip.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --c-gold: #FBAF1D;
@@ -8,6 +10,12 @@
   --c-brown: #4F3A2E;
   --c-beige: #FEEFD2;
   --c-back: #140C08;
+}
+
+html {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
