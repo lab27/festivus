@@ -16,7 +16,7 @@ export default {
 
   methods: {
     onIndexPageLoaded() {
-      this.$gsap.to('.moving-title', {x: "50%", xPercent: -50, y: "10vh", rotate: 0, ease: 'Power2.easeInOut'})
+      this.$gsap.to('.moving-title', {x: "50%", xPercent: -50, y: "5vh", rotate: 0, ease: 'Power2.easeInOut'})
       this.$gsap.to('.moving-title .ff', {rotation: 0, y: 0, ease: 'Power2.easeInOut'}, '-=1')
       this.$gsap.to('.moving-title .g', {rotation: 0, x:0,  y: 0, ease: 'Power2.easeInOut'}, '-=1')
     },

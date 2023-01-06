@@ -9,7 +9,7 @@
   --c-red: #F35336;
   --c-brown: #4F3A2E;
   --c-beige: #FEEFD2;
-  --c-back: #140C08;
+  --c-black: #140C08;
 }
 
 html {
@@ -25,6 +25,7 @@ body {
   transition: background 1s;
   min-height: 100vh;
   height: 100%;
+  color: var(--c-black)
 }
 
 .moving-title-wrapper {
@@ -76,16 +77,26 @@ body {
 }
 
 .page-wrapper {
-  @apply columns-1 lg:columns-12;
-  padding: 0 10% 0 10%;
+  @apply grid grid-cols-1;
+  padding: 0 12% 0 12%;
   margin: 0 auto;
-  border-left: 1px solid salmon;
   height: 100%;
   position: relative;
+  max-width: 1600px;
 }
 
 header nav {
   position: fixed;
   top: 2rem;
   left: 2rem;
+}
+
+.page-wrapper main {
+  @apply pt-10;
+}
+
+h1 {
+  @apply text-5xl mb-12;
+  font-weight: 700;
+  text-transform: uppercase;
 }
