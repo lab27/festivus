@@ -29,7 +29,7 @@ collections:
         media_library:
           config:
             multiple: true
-      - { label: 'Synopsis', name: 'synopis', widget: 'string' }
+      - { label: 'Synopsis', name: 'body', widget: 'markdown' }
       - { label: 'Director', name: 'director', widget: 'string' }
       - { label: 'Producer', name: 'producer', widget: 'string' }
       - { label: 'Executive Producer', name: 'execProducer', widget: 'string' }

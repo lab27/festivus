@@ -34,8 +34,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
-    'nuxt-gsap-module'
+    'nuxt-gsap-module',
+    '@nuxt/image'
   ],
+  image: {
+    // Options
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

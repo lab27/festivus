@@ -4,7 +4,7 @@
     ul.film-grid
       li(v-for="film in films")
         nuxt-link(:to="`/films/${film.slug}`")
-          img(:src="film.filmStills" :alt="film.title")
+          nuxt-img(:src="film.filmStills" :alt="film.title" placeholder format="webp")
           p.film-title {{ film.title }}
 </template>
 
