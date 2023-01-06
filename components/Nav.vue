@@ -1,8 +1,9 @@
 <template lang="pug">
   nav
     ul
-      li
-        nuxt-link(to="/") [Logo]
+      li.mb-12
+        nuxt-link(to="/")
+          img(src="/img/gff-logo.svg", alt="GFF Logo")
       li
         nuxt-link(to="/films") Films
       li
@@ -19,3 +20,10 @@
         a(href="https://ticketmaster.com" target="_blank").external_link Tickets
 
 </template>
+
+<style>
+nav ul {
+  text-align: right;
+  font-size: 1rem;
+}
+</style>
