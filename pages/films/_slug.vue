@@ -3,7 +3,7 @@
     h1 {{ film.title }}
     p.film-header-meta dir. {{ film.director }} / {{ film.type }} / {{ film.durationInMinutes }} min
     .film-content
-      img(:src="film.filmStills", alt="", srcset="")
+      FilmStill(:filmStill="film.filmStills" :filmTitle="film.title")
       .film-info
         .film-synopsis
           nuxt-content(:document="film")

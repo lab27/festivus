@@ -4,7 +4,11 @@
     ul.film-grid
       li(v-for="film in films")
         nuxt-link(:to="`/films/${film.slug}`")
-          nuxt-img(:src="film.filmStills" :alt="film.title" placeholder format="webp")
+          .film-thumbnail-wrapper
+            .thumbnail-arrow-wrapper
+              img(src="/img/arrow.svg")
+            .thumbnail-gauze
+            nuxt-img(:src="film.filmStills" :alt="film.title" :placeholder="[160,90, 10]" format="webp" fit="cover" width="800" height="450").thumbnail-image
           p.film-title {{ film.title }}
 </template>
 
