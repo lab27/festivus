@@ -180,7 +180,7 @@ main.film-detail .film-credits-line {
 }
 
 .film-thumbnail-wrapper img.thumbnail-image {
-  transition: transform .3s ease-in-out;
+  transition: transform .3s cubic-bezier(0, .67, .52, 1);
   will-change: transform;
 }
 
@@ -200,7 +200,7 @@ main.film-detail .film-credits-line {
 
 .thumbnail-arrow-wrapper img {
   transform: translateX(-100%);
-  transition: transform .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform .3s cubic-bezier(0, .67, .52, 1);
 }
 
 .film-thumbnail-wrapper:hover .thumbnail-arrow-wrapper img {
