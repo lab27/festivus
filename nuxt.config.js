@@ -39,8 +39,10 @@ export default {
     'nuxt-gsap-module',
     '@nuxt/image'
   ],
+  // Nuxt Images
   image: {
-    provider: 'netlify'
+    // Generate images to `/_nuxt/image/file.png`
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
