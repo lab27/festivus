@@ -24,7 +24,7 @@ collections:
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"
-        media_folder: /static/img/stills
+        media_folder: /static/img/film-stills
       - label: 'Additional Still'
         name: 'stills'
         widget: 'list'
