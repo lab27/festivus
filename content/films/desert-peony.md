@@ -2,7 +2,7 @@
 title: Desert Peony
 type: Fiction
 durationInMinutes: "89"
-thumbnail: /static/img/film-stills/mesh-gradient.png
+thumbnail: /static/img/stills/mesh-gradient.png
 stills:
   - still: /static/img/film-stills/whatsapp-image-2021-04-22-at-22.01.27.jpeg
 director: wefwef
