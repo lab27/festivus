@@ -4,7 +4,7 @@ type: Fiction
 durationInMinutes: "89"
 thumbnail: /static/img/film-stills/mesh-gradient.png
 stills:
-  - still: img/film-stills/whatsapp-image-2021-04-22-at-22.01.27.jpeg
+  - still: /static/img/film-stills/whatsapp-image-2021-04-22-at-22.01.27.jpeg
 director: wefwef
 producer: ahdgh
 execProducer: hsru6sft asdfg

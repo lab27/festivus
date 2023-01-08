@@ -40,7 +40,7 @@ export default {
     '@nuxt/image'
   ],
   image: {
-    // Options
+    provider: 'netlify'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
