@@ -2,10 +2,10 @@
 title: adsfasdf
 type: Fiction
 durationInMinutes: "234"
-thumbnail: /img/film-stills/img_7547.jpeg
+thumbnail: /img/film-stills/music.jpeg
 stills:
-  - still: /img/film-stills/bo1h2itq.jpeg
-  - still: /img/film-stills/camille-bodoni.png
+  - still: /img/film-stills/dude.jpeg
+  - still: /img/film-stills/camille.png
 director: asdf
 producer: asdf
 execProducer: asdf
